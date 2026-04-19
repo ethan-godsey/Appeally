@@ -143,11 +143,11 @@ export default function TrackerPage() {
     return (
       <div className="page">
         <div className="card" style={{ textAlign: 'center', padding: '3rem 2rem' }}>
-          <div style={{ marginBottom: '1rem' }}><Lock size={40} strokeWidth={1.5} style={{ color: 'var(--brand)' }} /></div>
-          <h2 style={{ fontSize: '1.25rem', fontWeight: 800, letterSpacing: '-.02em', marginBottom: '.5rem' }}>
+          <div style={{ marginBottom: '1rem' }}><Lock size={40} strokeWidth={1.5} style={{ color: 'rgba(255,255,255,.5)' }} /></div>
+          <h2 style={{ fontSize: '1.25rem', fontWeight: 800, letterSpacing: '-.02em', marginBottom: '.5rem', color: '#fff' }}>
             Sign in to view your appeals
           </h2>
-          <p style={{ fontSize: '.9rem', color: 'var(--text-2)', lineHeight: 1.6, maxWidth: 340, margin: '0 auto 1.5rem' }}>
+          <p style={{ fontSize: '.9rem', color: 'rgba(255,255,255,.55)', lineHeight: 1.6, maxWidth: 340, margin: '0 auto 1.5rem' }}>
             Create a free account to save your appeal letters, track their status, and download them anytime.
           </p>
           <div style={{ display: 'flex', gap: 10, justifyContent: 'center', flexWrap: 'wrap' }}>
