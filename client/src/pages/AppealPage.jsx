@@ -304,8 +304,8 @@ export default function AppealPage() {
   return (
     <div className="page">
       <div className="page-header">
-        <h1 className="page-title">Generate appeal letter</h1>
-        <p className="page-sub">Fill in your information below. We'll draft a formal letter citing the exact MHPAEA federal statute — ready to print and send.</p>
+        <h1 className="page-title">Generate Appeal Letter</h1>
+        <p className="page-sub">Fill in your information below. We'll draft a formal letter citing the exact MHPAEA federal statute. Ready to print and send.</p>
       </div>
 
       {fromCheck && (

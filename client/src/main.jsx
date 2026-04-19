@@ -2,7 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext.jsx';
-import Nav         from './components/Nav.jsx';
+import Nav          from './components/Nav.jsx';
+import BgAnimation  from './components/BgAnimation.jsx';
 import CheckPage   from './pages/CheckPage.jsx';
 import AppealPage  from './pages/AppealPage.jsx';
 import TrackerPage from './pages/TrackerPage.jsx';
@@ -12,6 +13,7 @@ import './index.css';
 function App() {
   return (
     <AuthProvider>
+      <BgAnimation />
       <Nav />
       <Routes>
         <Route path="/"        element={<CheckPage />} />
