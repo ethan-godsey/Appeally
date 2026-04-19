@@ -1,6 +1,5 @@
 /**
  * COMPLETE MENTAL HEALTH CPT CODE DATABASE
- * Person 3 owns this file.
  *
  * Structure per entry:
  *  - name:                  plain English description
